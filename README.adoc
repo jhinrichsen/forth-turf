@@ -1,0 +1,13 @@
+= forth-turf
+Forth snippets. Sadly a dying language.
+
+There's a couple of Forth out there, i picked gforth because it just
+falls out of homebrew.
+
+To run the samples, i use
+
+----
+gforth euler1.f -e bye
+----
+
+'bye' is the command to exit the REPL in gforth.

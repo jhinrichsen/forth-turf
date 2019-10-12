@@ -125,3 +125,8 @@ All timings in µs, i.e. 10^-6^ seconds.
 | Algo #2   |    700  |   161 |   0.2   (236 ns) |         |
 | Algo #3   |  5,600  |       | 323              |         |
 |====
+
+These are very rough, probably un-reproducable numbers.
+http://google.com/search?q=CU-CS-1042-08[CU-CS-1042-08] is a nice read.
+
+

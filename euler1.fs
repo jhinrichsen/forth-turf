@@ -58,12 +58,11 @@
 \ ---------- tests and benchmarks ----------
 
 \ all tests use vectored execution to test variants
-variable 'variant ( n -- n )
+' variant1 variable 'variant ( n -- n )
 : use-v1 ['] variant1 'variant ! ;
 : use-v2 ['] variant2 'variant ! ;
 : use-v3 ['] variant3 'variant ! ;
 : use-v4 ['] variant4 'variant ! ;
-use-v1 \ default variant
 
 \ execute variant
 : ev 'variant @ execute ;
